@@ -1,5 +1,5 @@
 import * as React from "react";
-import { Augmented } from "./augmented";
+import { Augmented } from "../../src/augmented";
 import "reset-css";
 import "augmented-ui/augmented.css";
 import "./styles.css";
