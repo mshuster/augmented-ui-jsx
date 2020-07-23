@@ -26,8 +26,10 @@
     "styled-components": "^5.1.1"
   },
   "scripts": {
+    "prepublish": "tsc",
     "storybook": "start-storybook"
   },
   "license": "BSD-2-Clause",
-  "main": "index.ts"
+  "main": "dist/index.ts",
+  "types": "dist/index.d.ts"
 }
