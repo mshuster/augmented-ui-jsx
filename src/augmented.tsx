@@ -82,8 +82,7 @@ const getAugWidthHeight = (
 ): (string | null)[] => {
   return ["width", "height"].map((prop) => {
     const sizes = { ...props.theme["aug-" + prop], ...props["aug-" + prop] };
-    console.log(sizes);
-
+    
     return (
       sizes &&
       Object.keys(sizes).map((edgeOrCorner: string) => {
@@ -98,7 +97,6 @@ const getAugWidthHeight = (
 const getAugOrigins = (props: ThemeProps<AugmentedProps>): (string | null)[] => {
   return ["origin-x", "origin-y"].map((prop) => {
     const origins = { ...props.theme["aug-" + prop], ...props["aug-" + prop] };
-    console.log(origins);
 
     return (
       origins &&

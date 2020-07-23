@@ -20,5 +20,6 @@
   },
   "scripts": {
     "storybook": "start-storybook"
-  }
+  },
+  "license": "BSD-2-Clause"
 }
