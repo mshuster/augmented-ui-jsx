@@ -8,8 +8,6 @@ Typed JSX implementation of the [augmented-ui](https://github.com/propjockey/aug
 
 ## Todo
 
-- [ ] Publish to NPM
-- [ ] Refactor folder structure
 - [ ] Write Visual test suite
 - [ ] Write Unit test suite
 - [ ] Add knobs for Storybook

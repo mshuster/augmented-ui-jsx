@@ -1,5 +1,6 @@
 {
   "name": "augmented-ui-jsx",
+  "description": "JSX implementation of the augmented-ui CSS API built with styled-components",
   "version": "0.0.0",
   "author": "Mark Shuster <mshuster@gmail.com> (http://markshuster.com/)",
   "repository": {
