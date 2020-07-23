@@ -32,10 +32,10 @@ export const withAugmented = () => (
       }}
     >
       <Augmented
-        aug-clip={{ b: true, t: true }}
+        aug-clip-x={{ b: true, t: true }}
         aug-round={{ br: true }}
         aug-size={{ b: "10px",t:"20px" }}
-        aug-width={{b: "15px", t:"50px"}}
+        aug-width={{b: "33%", t:"50px"}}
         aug-height={{b: "10px", t: "5px"}}
       >
         <Layout>test</Layout>
@@ -51,6 +51,7 @@ export const withAugmented = () => (
       placeholder="hello"
       aug-border="3px"
       aug-border-bg="#cc0000"
+      aug-round={{ tl: true, br: true }}
     />
   </>
 );
